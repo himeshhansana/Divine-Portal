@@ -201,7 +201,7 @@ export function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/50">
           <p>
-            &copy; {new Date().getFullYear()} Divine Stream. All rights reserved.
+            &copy; 2026 KreedX. All rights reserved.
           </p>
           <p className="flex items-center gap-1">
             Designed with <span className="text-soft-gold">♥</span> for inner
