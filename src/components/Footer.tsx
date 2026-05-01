@@ -51,7 +51,7 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <span className="font-poppins font-bold text-2xl text-white tracking-wide flex items-center gap-2 mb-6">
-              <span className="text-soft-gold">✧</span> SoulStream
+              <span className="text-soft-gold">✧</span> Divine Stream
             </span>
             <p className="text-sm leading-relaxed mb-8 max-w-sm text-white/60">
               Your premium digital sanctuary for guided meditations, spiritual
@@ -201,7 +201,7 @@ export function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/50">
           <p>
-            &copy; {new Date().getFullYear()} SoulStream. All rights reserved.
+            &copy; {new Date().getFullYear()} Divine Stream. All rights reserved.
           </p>
           <p className="flex items-center gap-1">
             Designed with <span className="text-soft-gold">♥</span> for inner

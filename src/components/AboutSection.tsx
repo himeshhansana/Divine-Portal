@@ -40,7 +40,7 @@ export function AboutSection() {
               Making Spiritual Growth Accessible to Everyone
             </h2>
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
-              We believe that inner peace shouldn't be a luxury. SoulStream was
+              We believe that inner peace shouldn't be a luxury. Divine Stream was
               born from a simple vision: to create a digital sanctuary where
               anyone, anywhere, can access profound spiritual teachings and
               healing practices.

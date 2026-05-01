@@ -98,7 +98,7 @@ export function RegisterPage() {
           <div className="text-center mb-8">
             <Link to="/" className="inline-block">
               <span className="font-poppins font-bold text-2xl text-white tracking-wide">
-                <span className="text-soft-gold">✧</span> SoulStream
+                <span className="text-soft-gold">✧</span> Divine Stream
               </span>
             </Link>
             <h1 className="font-poppins font-semibold text-2xl text-white mt-6 mb-2">

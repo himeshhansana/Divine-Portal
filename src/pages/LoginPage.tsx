@@ -83,7 +83,7 @@ export function LoginPage() {
           <div className="text-center mb-8">
             <Link to="/" className="inline-block">
               <span className="font-poppins font-bold text-2xl text-white tracking-wide">
-                <span className="text-soft-gold">✧</span> SoulStream
+                <span className="text-soft-gold">✧</span> Divine Stream
               </span>
             </Link>
             <h1 className="font-poppins font-semibold text-2xl text-white mt-6 mb-2">
@@ -217,7 +217,7 @@ export function LoginPage() {
 
           {/* Register Link */}
           <p className="text-center text-white/50 text-sm mt-8">
-            New to SoulStream?{' '}
+            New to Divine Stream?{' '}
             <Link
               to="/register"
               className="text-soft-gold hover:text-soft-gold-light transition-colors font-medium">

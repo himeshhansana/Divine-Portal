@@ -49,7 +49,7 @@ export function Navbar() {
             to="/"
             className="font-poppins font-bold text-2xl text-white tracking-wide flex items-center gap-2">
             
-            <span className="text-soft-gold">✧</span> SoulStream
+            <span className="text-soft-gold">✧</span> Divine Stream
           </Link>
         </div>
 
