@@ -9,27 +9,27 @@ import {
 'lucide-react';
 export function Footer() {
   return (
-    <footer className="bg-royal-green-dark text-white/80 border-t border-white/10">
+    <footer className="border-t bg-royal-green-dark text-white/80 border-white/10">
       {/* Newsletter Row */}
       <div className="border-b border-white/10 bg-black/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
-            <div className="text-center lg:text-left max-w-xl">
-              <h3 className="text-2xl font-poppins font-bold text-white mb-2">
+        <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-16">
+          <div className="flex flex-col items-center justify-between gap-8 lg:flex-row">
+            <div className="max-w-xl text-center lg:text-left">
+              <h3 className="mb-2 text-2xl font-bold text-white font-poppins">
                 Join our weekly newsletter
               </h3>
-              <p className="text-white/60 text-sm">
+              <p className="text-sm text-white/60">
                 Get mindful tips, exclusive meditation tracks, and event updates
                 delivered straight to your inbox.
               </p>
             </div>
-            <div className="w-full lg:w-auto flex-shrink-0">
+            <div className="flex-shrink-0 w-full lg:w-auto">
               <form
-                className="flex flex-col sm:flex-row gap-3"
+                className="flex flex-col gap-3 sm:flex-row"
                 onSubmit={(e) => e.preventDefault()}>
                 
                 <div className="relative">
-                  <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-white/40" />
+                  <Mail className="absolute w-5 h-5 -translate-y-1/2 left-4 top-1/2 text-white/40" />
                   <input
                     type="email"
                     placeholder="Enter your email"
@@ -46,27 +46,27 @@ export function Footer() {
       </div>
 
       {/* Main Footer */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
+      <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 gap-12 mb-16 md:grid-cols-2 lg:grid-cols-5">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <span className="font-poppins font-bold text-2xl text-white tracking-wide flex items-center gap-2 mb-6">
+            <span className="flex items-center gap-2 mb-6 text-2xl font-bold tracking-wide text-white font-poppins">
               <span className="text-soft-gold">✧</span> Prefix
             </span>
-            <p className="text-sm leading-relaxed mb-8 max-w-sm text-white/60">
+            <p className="max-w-sm mb-8 text-sm leading-relaxed text-white/60">
               Your premium digital sanctuary for guided meditations, spiritual
               talks, and live healing sessions.
             </p>
 
             {/* App Store Badges */}
-            <div className="flex flex-wrap gap-4 mb-8">
+            {/* <div className="flex flex-wrap gap-4 mb-8">
               <button className="flex items-center gap-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 transition-colors">
                 <Smartphone className="w-6 h-6 text-white" />
                 <div className="text-left">
                   <div className="text-[10px] text-white/60 uppercase tracking-wider font-medium leading-none mb-1">
                     Download on the
                   </div>
-                  <div className="text-sm text-white font-semibold leading-none">
+                  <div className="text-sm font-semibold leading-none text-white">
                     App Store
                   </div>
                 </div>
@@ -83,35 +83,35 @@ export function Footer() {
                   <div className="text-[10px] text-white/60 uppercase tracking-wider font-medium leading-none mb-1">
                     Get it on
                   </div>
-                  <div className="text-sm text-white font-semibold leading-none">
+                  <div className="text-sm font-semibold leading-none text-white">
                     Google Play
                   </div>
                 </div>
               </button>
-            </div>
+            </div> */}
 
             <div className="flex gap-4">
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-soft-gold hover:text-royal-green transition-colors duration-300">
+                className="flex items-center justify-center w-10 h-10 transition-colors duration-300 rounded-full bg-white/5 hover:bg-soft-gold hover:text-royal-green">
                 
                 <Instagram className="w-5 h-5" />
               </a>
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-soft-gold hover:text-royal-green transition-colors duration-300">
+                className="flex items-center justify-center w-10 h-10 transition-colors duration-300 rounded-full bg-white/5 hover:bg-soft-gold hover:text-royal-green">
                 
                 <Twitter className="w-5 h-5" />
               </a>
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-soft-gold hover:text-royal-green transition-colors duration-300">
+                className="flex items-center justify-center w-10 h-10 transition-colors duration-300 rounded-full bg-white/5 hover:bg-soft-gold hover:text-royal-green">
                 
                 <Facebook className="w-5 h-5" />
               </a>
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-soft-gold hover:text-royal-green transition-colors duration-300">
+                className="flex items-center justify-center w-10 h-10 transition-colors duration-300 rounded-full bg-white/5 hover:bg-soft-gold hover:text-royal-green">
                 
                 <Youtube className="w-5 h-5" />
               </a>
@@ -120,27 +120,27 @@ export function Footer() {
 
           {/* Links Columns */}
           <div>
-            <h4 className="font-poppins font-semibold text-white mb-6 uppercase tracking-wider text-sm">
+            <h4 className="mb-6 text-sm font-semibold tracking-wider text-white uppercase font-poppins">
               Platform
             </h4>
             <ul className="space-y-4 text-sm text-white/60">
               <li>
-                <a href="#" className="hover:text-soft-gold transition-colors">
+                <a href="#" className="transition-colors hover:text-soft-gold">
                   Video Library
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-soft-gold transition-colors">
+                <a href="#" className="transition-colors hover:text-soft-gold">
                   Live Events
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-soft-gold transition-colors">
+                <a href="#" className="transition-colors hover:text-soft-gold">
                   Instructors
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-soft-gold transition-colors">
+                <a href="#" className="transition-colors hover:text-soft-gold">
                   Pricing Plans
                 </a>
               </li>
@@ -148,27 +148,27 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-poppins font-semibold text-white mb-6 uppercase tracking-wider text-sm">
+            <h4 className="mb-6 text-sm font-semibold tracking-wider text-white uppercase font-poppins">
               Support
             </h4>
             <ul className="space-y-4 text-sm text-white/60">
               <li>
-                <a href="#" className="hover:text-soft-gold transition-colors">
+                <a href="#" className="transition-colors hover:text-soft-gold">
                   Help Center
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-soft-gold transition-colors">
+                <a href="#" className="transition-colors hover:text-soft-gold">
                   Contact Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-soft-gold transition-colors">
+                <a href="#" className="transition-colors hover:text-soft-gold">
                   Community Guidelines
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-soft-gold transition-colors">
+                <a href="#" className="transition-colors hover:text-soft-gold">
                   FAQ
                 </a>
               </li>
@@ -176,22 +176,22 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-poppins font-semibold text-white mb-6 uppercase tracking-wider text-sm">
+            <h4 className="mb-6 text-sm font-semibold tracking-wider text-white uppercase font-poppins">
               Legal
             </h4>
             <ul className="space-y-4 text-sm text-white/60">
               <li>
-                <a href="#" className="hover:text-soft-gold transition-colors">
+                <a href="#" className="transition-colors hover:text-soft-gold">
                   Terms of Service
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-soft-gold transition-colors">
+                <a href="#" className="transition-colors hover:text-soft-gold">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-soft-gold transition-colors">
+                <a href="#" className="transition-colors hover:text-soft-gold">
                   Cookie Policy
                 </a>
               </li>
@@ -199,7 +199,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/50">
+        <div className="flex flex-col items-center justify-between gap-4 pt-8 text-sm border-t border-white/10 md:flex-row text-white/50">
           <p>
             &copy; 2026 KreedX. All rights reserved.
           </p>
