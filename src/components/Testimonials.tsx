@@ -7,7 +7,7 @@ const TESTIMONIALS = [
   name: 'Sarah M.',
   role: 'Yoga Instructor',
   content:
-  'Divine Stream has completely transformed my daily routine. The guided meditations are incredibly powerful, and the live sessions make me feel connected to a global community.',
+  'Prefix has completely transformed my daily routine. The guided meditations are incredibly powerful, and the live sessions make me feel connected to a global community.',
   rating: 5,
   initial: 'S'
 },
@@ -98,7 +98,7 @@ export function Testimonials() {
           </h2>
           <p className="text-gray-600 text-lg">
             Hear from our community members who have found peace, purpose, and
-            connection through Divine Stream.
+            connection through Prefix.
           </p>
         </motion.div>
 
